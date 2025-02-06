@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online - Barranquilla</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { width: 80%; margin: auto; }
+        .product { display: inline-block; width: 30%; padding: 10px; border: 1px solid #ddd; margin: 10px; }
+        .button { background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Tienda Online - Barranquilla</h1>
+    </header>
+    
+    <section id="inicio">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un emprendimiento barranquillero dedicado a ofrecer productos de calidad para mejorar tu estilo de vida. Nuestro equipo está conformado por expertos en el sector.</p>
+        <a href="dofa.html" class="button">Ver Matriz DOFA</a>
+    </section>
+    
+    <section id="tienda">
+        <h2>Nuestros Productos</h2>
+        <div class="product">
+            <img src="producto1.jpg" alt="Producto 1" width="200">
+            <h3>Producto 1</h3>
+            <p>Descripción del producto 1.</p>
+            <p><strong>$80,000 COP</strong></p>
+            <a href="#" class="button">Compra ahora</a>
+        </div>
+        <div class="product">
+            <img src="producto2.jpg" alt="Producto 2" width="200">
+            <h3>Producto 2</h3>
+            <p>Descripción del producto 2.</p>
+            <p><strong>$120,000 COP</strong></p>
+            <a href="#" class="button">Compra ahora</a>
+        </div>
+        <div class="product">
+            <img src="producto3.jpg" alt="Producto 3" width="200">
+            <h3>Producto 3</h3>
+            <p>Descripción del producto 3.</p>
+            <p><strong>$100,000 COP</strong></p>
+            <a href="#" class="button">Compra ahora</a>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: contacto@mitienda.com</p>
+        <p>Redes sociales: @mitienda</p>
+        <p>Ubicación: Barranquilla, Colombia</p>
+        <form>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+            <br>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
+
